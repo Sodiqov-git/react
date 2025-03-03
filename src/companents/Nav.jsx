@@ -1,0 +1,26 @@
+import Stream from '../assets/Stream.png'
+import SearchIcon from '@mui/icons-material/Search';
+import NotificationsIcon from '@mui/icons-material/Notifications';
+import MenuIcon from '@mui/icons-material/Menu';
+
+function Nav() {
+
+    return (
+        <div className="container" id="nav">
+            <img className='stream' src={Stream} alt="" />
+            <div className='link'>
+                <a href="">Home</a>
+                <a href="">Movie&Shows</a>
+                <a href="">Support</a>
+                <a href="">Subscriptions</a>
+            </div>
+            <div className=''>
+                <SearchIcon className='icon' />
+                <NotificationsIcon className='icon' />
+                <MenuIcon className='menu'/>
+            </div>
+        </div>
+    )
+}
+
+export default Nav;
