@@ -6,19 +6,19 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Nav() {
 
     return (
-        <div className="container" id="nav">
+        <div id="nav">
             <img className='stream' src={Stream} alt="" />
             <div className='link'>
-                <a href="">Home</a>
+                <a className='home' href="">Home</a>
                 <a href="">Movie&Shows</a>
                 <a href="">Support</a>
                 <a href="">Subscriptions</a>
             </div>
-            <div className=''>
+            <div className='icons'>
                 <SearchIcon className='icon' />
                 <NotificationsIcon className='icon' />
-                <MenuIcon className='menu'/>
             </div>
+            <MenuIcon className='menu'/>
         </div>
     )
 }
